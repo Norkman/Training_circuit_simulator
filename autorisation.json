@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "projectsimulatoractivity",
+  "private_key_id": "894c2f9da3ceb6b0c2776e405d48fd75d1fb71b7",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDx2JvUv/F8IllS\nFSKkSd/ingl5G7eD2hhsRdTcD4Fv+Arkm9hKjFYKx6dmVwLMcNcf/dONSG9yUUxe\ng4PtJt2bF5+pgnWVrmKZszjcM0YrunLW/JcgbYgFm/7xEYDPgnb8P2Nq5dzdkOOD\nsKs150lpCeSCtDlzh90tIzs+Qq8nmLVIoL4jfnqU+Zt8kReXpAyJOrjmq6ojSEGG\nmvdAP7M5BUYnQrR6lRfxbiTRDpxM3/kAJBIdFzlf7j5ZbTRa6DxFuTKLzq6NAhlm\npZySou0K9qQ4paHVunbizTxmyVVqLaLv6gZE/WnMPHYEKOYcxIbbYAMrVAEt/QZw\n2HNr7uD9AgMBAAECggEAP492JQvtI3rDjtcPK65esOhoBPRL3tNK5+nSb6ODmTHP\naxWqWq1XT635SORFUAW4BChpmRAYeirzr0NRQNqeE0y6IYqv7I7QSyTXJMg1APkX\nhXkNHvCqdw7widrXx7G6I8FlF4sh6PlTUiD0Xk5S9NAsxk0nbD2g22QPBeXwsq7k\n5xX+y1X9stbrsF6chWFLC/zb5gPu58CHTN+/WejURXGEf4+gSlVbkKdx6U5660G6\ngDHGnC4pO+B4KePcWzYfTGRqD1tqNmo9XvT240ckcjnFWA7O97EasI7+q/Eperdb\nJhCR8IR2ajr8xZ0rXQrMJe5qbWUjfDRNDNQYa76I4QKBgQD9F1FRwcmMMYTFI8qy\nixc3xuE5VBFXee2i8l8cAVXkKXs2cIkDExEgOwJyL66qGqO5rN1sJTiF+JK41iYq\n6RrZK602WpuqDKsYsbAIRlJ8eXuR4dOgGI0vKbo0lDeeLz7rtVLA4K8unSTkUrAc\nDIo09/xSsDEGwQSWGeFSGcKJswKBgQD0oDRYRGKiZYcrnIQXs8LtDlSf/Z5pUUEw\nJ+0yu/9bgwcej4txDFnoKm0WJEg4ri7YNQLFoIYJdbg03GVDuKHUvIiAHpGkR+nK\n8c2o3Wf8nd+NQjAxcRPMofthUEDH0bCt/iHps2aA4YvAxS5XSc37E900K3o9lh1H\nxtY8E6UyjwKBgFd8PfHi6MZ7P4fdzW1WQxpWtvfYJX51eT2ARnwpwgTyidLRp6rW\nZm8btsa90MSgHMRMCuYdH6K/wAgAjoT6uvsi6+cD/xcS9fm9Qjo6BL1eSOauhzaq\nBfOtmt4d9fPKJRfZP9fIUwXr8Bq0soeflg6lQiVbHjdVdT5lh8uXd/WdAoGBAIs7\nJ6/ZdF5D9RRQaCppaRetoWLSYjhFRBoZj3rh36yBPisZvl7gjceDZkVE70o7cXQj\nb+l1vPRjaS3FB2ntC0be674oJ/Ld72ZQDCMBqW7xmEx5EJ8DYiaFR2OS3twcMDhH\nvZubPUs7lGRqlj6eRjuSicNov5GQAChbNpJJCCxnAoGAX8oAEJI1wCaUUTg6Dzkr\nmh7DPCti++mNDednVY8SDXURQPyNwdIbuLwX1pS6Pe8CH4t7OnyR+YggLQnsIYSC\naYFO2Y2g53LaKnOw0VPWK/hXeZAz/zLRZJFNux4Ui5r37tkKbUnNHW4hAbtJvgWd\nHNz7K8e4UYrGeoAMvhdYWFw=\n-----END PRIVATE KEY-----\n",
+  "client_email": "dataexercices@projectsimulatoractivity.iam.gserviceaccount.com",
+  "client_id": "117528053550229747072",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/dataexercices%40projectsimulatoractivity.iam.gserviceaccount.com"
+}
