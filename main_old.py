@@ -1,7 +1,7 @@
 from question import *
 from extraction import *
 from verify import *
-from geration_of_wod import *
+from generation_of_wod import *
 import oauth2client
 
 

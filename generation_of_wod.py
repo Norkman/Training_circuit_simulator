@@ -8,18 +8,18 @@ def count_number_of_element_in_array(array, element) :
     return number_of_element
 
 
-def simulate_structure(parameters, part, time_of_wod):
+def simulate_structure(parameters, wod):
     # Initialisation of variable
     mixte = "Mixte"
     upper_body = "Upper Body"
     lower_body = "Lower Body"
     full_body = "Full Body"
 
-    wod = random.choice(parameters.type_of_wod)
-    wod = "EMOM" #---------------------------------------delete
-    print (wod)
+    wod.type = random.choice(parameters.type_of_wod)
+    wod.type = "EMOM" #---------------------------------------delete
+    print ("---- " + wod.type + " ----")
 
-    if wod == "AMRAP":
+    if wod.type == "AMRAP":
 
         while True :
             number_of_block_random = int(random.choice(parameters.AMRAP_num_block))
@@ -60,23 +60,22 @@ def simulate_structure(parameters, part, time_of_wod):
             else :
                 continue
 
-    if wod == "EMOM":
+    if wod.type == "EMOM":
+        
+        wod.initialisation()
+        print(wod.structure)
 
-        EMOM_num_ex = extract_parameter("EMOM_num_ex", parameters_sheet_data)
-        EMOM_num_cycle = extract_parameter("EMOM_num_cycle", parameters_sheet_data)
-        EMON_delta = extract_parameter("EMON_delta", parameters_sheet_data)
-
-        # initilaisation of variable
+        # initialisation of variable
         time_random = 0
         while True :
-            number_of_exercises_random = int(random.choice(EMOM_num_ex))
-            number_of_cycle_random = int(random.choice(EMOM_num_cycle))
+            number_of_exercises_random = int(random.choice(parameters.emom_num_ex))
+            number_of_cycle_random = int(random.choice(parameters.emom_num_cycle))
             time_random = number_of_exercises_random*number_of_cycle_random
 
             # to check error 
             print(" number of exercice : " + str(number_of_exercises_random) + " / number of cycle : " + str(number_of_cycle_random) + " / time : " + str(time_random))
             
-            if time_random <= int(time_of_wod) and time_random >= (int(time_of_wod) - int(EMON_delta)) :
+            if time_random <= int(time_of_wod) and time_random >= (int(time_of_wod) - int(parameters.emom_delta)) :
                 number_of_exercises = number_of_exercises_random
                 number_of_cycle = number_of_cycle_random
                 break
